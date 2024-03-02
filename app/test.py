@@ -5,5 +5,7 @@ def print_name():
     print("Your code is getting executed ...")
 
 
-print(os.getcwd())
-print_name()
+if __name__ == "__main__":
+
+    print(os.getcwd())
+    print_name()
